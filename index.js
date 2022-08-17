@@ -6,7 +6,7 @@ function clock() {
 
   const hr = zeroLeft(data.getHours());
   const min = zeroLeft(data.getMinutes());
-  const sec = zeroLeft(data.getSeconds());
+  const sec = zeroLeft(data.getSeconds());  
 
   let time = `${hr}:${min}:${sec}`;
   base.innerHTML = time;
