@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Clock";
+  src: url("assets/fonts/alarmClock.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: grid;
+  gap: 15rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  background: #0c141b;
+}
+
+div.borderClock {
+  background: rgba(229, 118, 31, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  padding: 1rem;
+}
+
+h2#dayOfWeek {
+  text-align: center;
+}
+
+span {
+  font-size: 4rem;
+}
+
+.clock {
+  font-family: "Clock";
+  font-size: 10rem;
+}
+
+/* ============FOOTER============ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  color: rgb(38, 70, 157);
+}
+
+footer {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  bottom: 50px;
+}
+
+/* ============BREAK POINTS============ */
+@media (max-width: 750px) {
+  .clock {
+    font-family: "Clock";
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .clock {
+    font-family: "Clock";
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .clock {
+    font-family: "Clock";
+    font-size: 4rem;
+  }
+}
+
+/* Esse @media é pra vc ver o se o seu relogio esta certo! */
+@media (max-width: 130px) {
+  .clock {
+    font-family: "Clock";
+    font-size: 1rem;
+  }
+}
