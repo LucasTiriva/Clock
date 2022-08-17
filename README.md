@@ -15,3 +15,5 @@ Começamos com o JavaScript e ai começou as dificuldades, não tínhamos a mín
 - Trabalhar em equipe economiza muito tempo
 - Utilizar o .get, setTimout()
 - Reduzir código redundante graças ao [Antonio🥔](https://github.com/AntonioLourencos).
+
+## Veja aqui [Clock Week](https://clockweek.netlify.app/)
